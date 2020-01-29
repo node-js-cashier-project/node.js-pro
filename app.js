@@ -3,7 +3,6 @@ var bodyParser= require("body-parser")
 var mongoose=require("mongoose");
 var fs=require('fs')
 var addController= require('./controllers/addMeal')
-var checkController= require('./controllers/checkOut')
 var listController= require('./controllers/listOrders')
 // var menurout=require('./routes/Menu')
 var loginController = require('./controllers/admin')
